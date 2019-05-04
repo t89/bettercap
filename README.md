@@ -6,10 +6,13 @@
     <a href="https://travis-ci.org/bettercap/bettercap"><img alt="Travis" src="https://img.shields.io/travis/bettercap/bettercap/master.svg?style=flat-square"></a>
     <a href="https://goreportcard.com/report/github.com/bettercap/bettercap"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/bettercap/bettercap?style=flat-square&fuckgithubcache=1"></a>
     <a href="https://codecov.io/gh/bettercap/bettercap"><img alt="Code Coverage" src="https://img.shields.io/codecov/c/github/bettercap/bettercap/master.svg?style=flat-square"></a>
+    <a href="https://repology.org/project/bettercap/versions"><img src="https://repology.org/badge/tiny-repos/bettercap.svg" alt="Packaging status"></a>
   </p>
 </p>
 
 bettercap is a powerful, easily extensible and portable framework written in Go which aims to offer to security researchers, red teamers and reverse engineers an **easy to use**, **all-in-one solution** with all the features they might possibly need for performing reconnaissance and attacking [WiFi](https://www.bettercap.org/modules/wifi/) networks, [Bluetooth Low Energy](https://www.bettercap.org/modules/ble/) devices, wireless [HID](https://www.bettercap.org/modules/hid/) devices and [Ethernet](https://www.bettercap.org/modules/ethernet) networks.
+
+![UI](https://raw.githubusercontent.com/bettercap/media/master/ui-events.png)
 
 ## Main Features
 
@@ -22,6 +25,7 @@ bettercap is a powerful, easily extensible and portable framework written in Go 
 * A powerful **network sniffer** for **credentials harvesting** which can also be used as a **network protocol fuzzer**.
 * A very fast port scanner.
 * A powerful [REST API](https://www.bettercap.org/modules/core/api.rest/) with support for asynchronous events notification on websocket to orchestrate your attacks easily.
+* **A very convenient [web UI](https://www.bettercap.org/usage/#web-ui).**
 * [More!](https://www.bettercap.org/modules/)
 
 ## About the 1.x Legacy Version
@@ -43,3 +47,7 @@ The project is documented [here](https://www.bettercap.org/).
 ## License
 
 `bettercap` is made with ♥  by [the dev team](https://github.com/orgs/bettercap/people) and it's released under the GPL 3 license.
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/bettercap/bettercap.svg)](https://starchart.cc/bettercap/bettercap)

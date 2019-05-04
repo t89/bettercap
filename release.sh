@@ -24,4 +24,15 @@ git tag -a v$NEW_VERSION -m "Release v$NEW_VERSION"
 git push origin v$NEW_VERSION
 
 echo
+echo "Released on github, building docker image ..."
+
+sudo docker build -t bettercap/bettercap:v$NEW_VERSION .
+sudo docker tag bettercap/bettercap:v$NEW_VERSION bettercap/bettercap:latest
+
+echo "Pushing to dockerhub ..."
+
+sudo docker push bettercap/bettercap:v$NEW_VERSION
+sudo docker push bettercap/bettercap:latest
+
+echo
 echo "All done, v$NEW_VERSION released ^_^"
